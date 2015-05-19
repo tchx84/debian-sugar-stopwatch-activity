@@ -40,6 +40,8 @@ CDBS_BUILD_DEPENDS_class_python-sugar_sugar = python-sugar3, unzip
 
 # Suppress binary files to not upset dpkg
 DEB_COPYRIGHT_CHECK_IGNORE_REGEX = ^data/logo_.*\.png|debian/(changelog|copyright(|_hints|_newhints))$
+# Exclude updated mime database files
+DEB_DH_ALWAYS_EXCLUDE=usr/share/mime
 
 # Needed (always/often/seldom) at runtime
 python-deps = sugar3 gi dbus telepathy
