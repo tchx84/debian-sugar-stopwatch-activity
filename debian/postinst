@@ -1,9 +1,0 @@
-#!/bin/sh
-
-# create a symlink to the original .xml file
-ln -s /usr/share/sugar/activities/StopWatch.activity/activity/mimetypes.xml /usr/share/mime/packages/stopwatch.xml
-
-# update the mime types database
-update-mime-database /usr/share/mime/
-
-
