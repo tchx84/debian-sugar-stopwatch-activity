@@ -1,3 +1,9 @@
+sugar-stopwatch-activity (18-1~0tch1) trusty; urgency=medium
+
+  * Update rules file.
+
+ -- Martin Abente Lahaye <tch@sugarlabs.org>  Tue, 21 Jul 2015 15:25:13 -0400
+
 sugar-stopwatch-activity (18-0tch2) UNRELEASED; urgency=low
 
   * Exclude updated mime database files.
